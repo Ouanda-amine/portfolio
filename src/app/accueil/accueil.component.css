@@ -1,0 +1,47 @@
+.row{
+  justify-content: space-between;
+
+
+}
+#img{
+  border-radius: 30%;
+  margin-top: 30px;
+  border : 4px rgba(61, 61, 236, 0.69) solid;
+  padding: 0;
+  margin-bottom: 110px;
+
+}
+body{
+  background-color: black;
+
+}
+#nom{
+  color: aliceblue;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: "Arabic Typesetting";
+}
+#role{
+  color: rgb(27, 100, 248);
+  text-align: center;
+font-family: "Book Antiqua";
+}
+#salut{
+  text-align: center;
+}
+#diiv{
+  margin-top: 40px;
+}
+#links{
+
+  display: flex;
+  justify-content: space-evenly;
+}
+#gt{
+  margin-top: 37px;
+}
+#txt{
+  margin-top: 60px;
+  text-align: center;
+  color: cornsilk;
+}
