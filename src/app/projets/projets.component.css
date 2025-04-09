@@ -1,0 +1,35 @@
+#mycard{
+  padding: 10px;
+  border-radius: 12px;
+  margin:10px;
+  background-color: rgba(255, 255, 255, 0.29);
+  border: 2px blue solid;
+}
+#titre{
+  color: white;
+  text-align: center;
+  margin: 30px;
+
+
+}
+#nom{
+  font-size: 25px;
+  color: #6161ed;
+  font-family: "Britannic Bold";
+}
+body{
+  background-color: black;
+  padding: 20px;
+}
+#lg{
+  text-align: end;
+  font-family: "Copperplate Gothic Bold";
+  font-size: x-large;
+  color: darkkhaki;
+
+}
+#bttn{
+  position: absolute;
+  bottom: 10px;
+
+}

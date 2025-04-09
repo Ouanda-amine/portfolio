@@ -1,1 +1,28 @@
+<body>
+<div class="container">
+  <h1 id="titre"> Mes Projets</h1>
+  <div class="row">
+    <div class="col-sm-6 mb-4" *ngFor="let p of projets">
+      <div class="card" id="mycard">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <img src="{{p.image}}" class="img-fluid" alt="{{p.nom}}">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h2   id="nom">{{p.nom}}</h2>
+              <h6 id="lg">{{p.languag}}</h6>
+            </div>
+          </div>
+          <div class="col-md-3" style="position: relative">
+            <a href="{{p.repostry}}" target="_blank">
 
+            <button class="btn btn-outline-primary" id="bttn">Explorez -></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
