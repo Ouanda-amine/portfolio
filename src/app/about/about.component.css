@@ -1,0 +1,25 @@
+#card , #cardd , #carddd{
+  border-bottom: 2px rgba(152, 151, 151, 0.87) solid;
+  margin-top: 30px;
+
+
+}
+#cmp,#lag,#bac,#ts,#ista,#enaa,#dfs ,#pr{
+  color: white;
+}
+#cmp,#pr{
+  margin-bottom: 30px;
+}
+body{
+ padding: 60px;
+  background-color: black;
+
+}
+#ee{
+  margin-top: 40px;
+}
+#imgs{
+  justify-content: space-around;
+
+
+}

@@ -8,11 +8,12 @@
   margin-top: 30px;
   border : 4px rgba(61, 61, 236, 0.69) solid;
   padding: 0;
-  margin-bottom: 110px;
+
 
 }
 body{
   background-color: black;
+  padding: 20px;
 
 }
 #nom{
