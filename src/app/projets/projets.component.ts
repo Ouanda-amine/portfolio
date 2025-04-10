@@ -19,11 +19,21 @@ export class ProjetsComponent implements OnInit{
     {"nom" : "movies" , "image" : "movie.jpg " ,"repostry" : "https://github.com/Ouanda-amine/Movies" , "languag" : "html"},
     {"nom" : "SmartRecruit" , "image" : "smart.jpg " ,"repostry" : "https://github.com/Ouanda-amine/SmartRecruit" , "languag" : "java"}
 
+
   ];
+
+  projetsfiltre = [...this.projets]
 
   constructor() {
   }
   ngOnInit(): void {
+
+  }
+  filtrepro(search: String):void {
+    this.projetsfiltre=this.projets.filter((project)=>
+    project.languag.toLowerCase().includes(search.toLowerCase())
+    );
+
   }
 
 }
