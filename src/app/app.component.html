@@ -1,32 +1,34 @@
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="nv" >
-  <div class="container">
-    <h1 style="font-family: 'Arial Rounded MT Bold' ; color: black"> Portfolio </h1>
-    <div style="justify-content: space-between">
-    <button class="btn btn-outline-dark" routerLink="accueil" id="aa">Accueil</button>
-    <button class="btn btn-outline-dark" id="bb" routerLink="about" >À propos</button>
-    <button class="btn btn-outline-dark" id="dd" routerLink="projets">Projets</button>
-    <button class="btn btn-outline-dark" id="cc" >Contact</button>
-
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="nv" >
+    <div class="container">
+      <h1 style="font-family: 'Arial Rounded MT Bold' ; color: black"> Portfolio </h1>
+      <div style="justify-content: space-between">
+          <button class="btn btn-outline-dark" routerLink="accueil" id="aa">Accueil</button>
+          <button class="btn btn-outline-dark" id="bb" routerLink="about" >À propos</button>
+          <button class="btn btn-outline-dark" id="dd" routerLink="projets">Projets</button>
+          <button class="btn btn-outline-dark" id="cc" routerLink="contact">Contact</button>
+      </div>
     </div>
+  </nav>
 
+  <router-outlet>
 
+  </router-outlet>
 
+<footer id="foooter">
 
-
-
-
-
-
-
-
+  <div class="row">
+    <div>
+      <p>&copy;</p>
+      <p>All rights reserved.</p>
+    </div>
+    <p>amineouanda&#64;gmail.com</p>
   </div>
-</nav>
+
+</footer>
 
 </body>
 
 
-<router-outlet>
 
-</router-outlet>

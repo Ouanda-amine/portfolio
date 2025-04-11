@@ -1,4 +1,16 @@
 #aa , #bb , #cc , #dd{
   margin-right: 6px;
 }
+#foooter{
+  background-color: blue;
+  color: white;
 
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+*{
+  margin: 0;
+
+}

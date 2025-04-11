@@ -1,0 +1,30 @@
+#caard{
+  background-color: blue;
+  padding: 50px;
+  border-radius: 15px;
+
+}
+#env{
+  float: right;
+
+}
+body{
+  background-color: black;
+  padding: 50px;
+}
+.text-danger {
+  color: #e84343;
+}
+
+.text-success {
+  color: #88f188;
+}
+#err{
+  font-size: 22px;
+  text-align: center;
+}
+#cntct{
+  font-family: "Bodoni MT Condensed";
+  font-size: 25px;
+  color: white;
+}

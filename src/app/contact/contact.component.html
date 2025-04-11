@@ -1,0 +1,28 @@
+<body>
+   <div class="container w-50 my-5 m-50">
+
+     <h1 id="cntct">Pour me Contacter :</h1>
+
+     <div class="card-body" id="caard">
+
+       <h1 [ngClass]="messageColor" [innerHTML]="errorMessages" id="err"></h1>
+       <div class="mb-1">
+         <label for="nom" class="form-label">Nom</label>
+         <input type="text" class="form-control" id="nom" name="nom" [(ngModel)]="nom" >
+       </div>
+
+       <div class="mb-3">
+         <label for="email" class="form-label">Email</label>
+         <input type="email" class="form-control" id="email" name="email" [(ngModel)]="email">
+       </div>
+
+       <div class="mb-3">
+         <label for="message" class="form-label">Message</label>
+         <textarea type="" class="form-control" id="message" name="msj" [(ngModel)]="message"></textarea>
+       </div>
+
+       <button class="btn btn-outline-light" id="env" (click)="validation()" >Envoyer</button>
+
+     </div>
+   </div>
+</body>
